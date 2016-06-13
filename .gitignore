@@ -1,2 +1,3 @@
 # Ignore npm
 node_modules
+app/dist/bower/

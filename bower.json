@@ -1,0 +1,17 @@
+{
+  "name": "parte1",
+  "description": "parte 1 tutorial react",
+  "main": "index.html",
+  "authors": [
+    "pepe"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/joseDroguett/holaReact",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ]
+}
