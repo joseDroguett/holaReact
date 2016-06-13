@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router';
 
 import SearchBar from "./SearchBar.js";
 import ProductTable from "./ProductTable.js";
@@ -23,6 +24,7 @@ export default class FilterableProductTable extends React.Component {
 			<div>
 				<SearchBar onChange={this.filterList.bind(this)}/>
 				<ProductTable products={this.props.store} filter={this.state.filter}/>
+				<Link className="btn btn-primary" to="/">Volver</Link> 
 			</div>
 		);
 	}
