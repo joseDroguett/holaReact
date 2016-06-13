@@ -6,7 +6,7 @@ export default class ProductRow extends React.Component {
 	}
 	render(){
 		return(
-			<div>
+			<div class="fila">
 				<h4>{this.props.product}</h4>
 			</div>
 		);

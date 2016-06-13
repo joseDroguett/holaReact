@@ -6,9 +6,10 @@ export default class SearchBar extends React.Component {
 	}
 	render(){
 		return(
-			<div>
-				<input type="text"/>
-				<input type="checkbox"/>
+			<div class="filtrar">
+				<label>Filtrar producto: </label>
+				<input class="inputSearch" onChange={this.props.onChange} type="text"/>
+				<input class="miCheckbox" type="checkbox"/>
 			</div>
 		);
 	}
